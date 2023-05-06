@@ -326,7 +326,6 @@ body {
 
   .banner {
     background-image: url(/img/bannerTablet.png);
-    background-repeat: no-repeat;
     height: auto;
     padding: 0;
   }
