@@ -376,6 +376,10 @@
       padding: 16px;
       justify-content: space-around;
     }
+
+    .buscador{
+        width: 100%;
+    }
   
     .buscador img {
       width: 100px;
@@ -400,18 +404,13 @@
     .material-symbols-outlined {
       width: 17.5px;
       height: 17.5px;
+      color: var(--negro);
+      background-color: var(--blanco);
     }
   
     /* Banner */
   
-    .banner {
-      padding: 16px;
-      background-image: url(/img/bannerMovil.png);
-      background-repeat: no-repeat;
-      block-size: cover;
-      height: auto;
-    }
-  
+    
     .banner-texto {
       gap: 8px;
       justify-content: flex-end;
@@ -450,6 +449,11 @@
     }
     .contenedor-productos-titulo{
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap:16px
+        
     }
 
   
@@ -482,10 +486,12 @@
       font-size: 16px;
     }
   
-    .boton-ver-producto{
-      font-size: var(--very-small) ;
-      
-    }
+  .boton-agregar-producto{
+    width: 150px;
+    height: 40px;
+    font-size: var(--very-small);
+    font-weight: 600;
+  }
   
     /* Footer */
   
