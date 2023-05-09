@@ -384,10 +384,13 @@
     .buscador img {
       width: 100px;
       height: 28px;
+      align-items: center;
     }
     .buscador-input {
       display: none;
     }
+
+  s
   
     .box-login {
       flex-direction: row-reverse;
@@ -402,8 +405,8 @@
     }
   
     .material-symbols-outlined {
-      width: 17.5px;
-      height: 17.5px;
+      width: 24px;
+      height: 24px;
       color: var(--negro);
       background-color: var(--blanco);
     }
@@ -459,7 +462,7 @@
   
     .lista-productos {
       width: 100%;
-      overflow-x: scroll;
+      /* overflow-x: scroll; */  grid-template-columns: repeat(2, 1fr);
       margin-top: 16px;
     }
   
